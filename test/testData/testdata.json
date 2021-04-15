@@ -1,0 +1,10 @@
+{
+    "login": {
+      "password":      "",
+      "userName":       ""
+    },
+
+    "dashboard" : {
+        "accountsOverview" : "Accounts Overview"
+    }
+  }
