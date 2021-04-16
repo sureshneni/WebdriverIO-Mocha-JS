@@ -18,11 +18,14 @@ Initial setup:
 
 Prerequisite:
 
-Java(any latest version)
-VSCode(any editor)
+Java(any latest version),
+
+VSCode(any editor),
+
 Npm(latest version)
 
 
+==========================================================================
 
 1.	Create a project folder in any directory as shown below:
 C:\NewGitProjects\WebdriverIO-Javascript-Mocha
