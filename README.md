@@ -6,6 +6,13 @@ https://parabank.parasoft.com/parabank/index.htm
 
 So user can register first and use that username and password in testdata.json file under testData folder.
 
+testdata.json:
+
+"login": {
+      "password":      "",
+      "userName":       ""
+}
+
 Initial setup:
 ==============================
 
