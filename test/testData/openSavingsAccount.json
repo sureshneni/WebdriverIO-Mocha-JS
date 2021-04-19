@@ -1,0 +1,11 @@
+{
+    "login": {
+        "userName":       "testauto",
+        "password":      "Test@1234"
+      },
+      
+    "CreateAccount" : {
+        "accountType" : "SAVINGS",
+        "accountNo" : "12678"
+    }
+}

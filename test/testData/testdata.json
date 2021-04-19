@@ -1,7 +1,7 @@
 {
     "login": {
-      "password":      "",
-      "userName":       ""
+      "userName":       "testauto",
+      "password":      "Test@1234"
     },
 
     "dashboard" : {

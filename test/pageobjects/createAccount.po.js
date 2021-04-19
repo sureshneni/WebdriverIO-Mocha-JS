@@ -13,6 +13,7 @@ class createAccountsPage {
 
     selectExisitngAccount(accountNum) {
         this.exsitingAccountDD.click();
+        this.accountTypeDD.waitForDisplayed({ timeout: 2000 });
         this.exsitingAccountDD.selectByVisibleText(accountNum);
     }
 

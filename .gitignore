@@ -5,6 +5,7 @@
 
 ### VisualStudioCode ###
 **/node_modules
+**/allure-results
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json

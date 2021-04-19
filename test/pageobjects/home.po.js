@@ -9,5 +9,41 @@ class HomePage {
     get requestLoan() { return $("//a[@href='/parabank/requestloan.htm']"); }
     get logout() { return $("//a[@href='/parabank/requestloan.htm']"); }
 
+    goToCreateAccountSection() {
+        this.createNewAccountLink.waitForDisplayed({ timeout: 5000 });
+        this.createNewAccountLink.click();
+    }
+
+    goToAccountsOverviewSection() {
+        this.acocuntsOverviewLink.click();
+    }
+
+    goToTransferFundsSection() {
+        this.transferFunds.click();
+    }
+
+    goToBillPaySection() {
+        this.billPay.click();
+    }
+
+    goToFindTransactionsSection(){
+        this.createNewAccountLink.waitForDisplayed({ timeout: 5000 });
+        this.findTransactions.click();
+    }
+
+    goToUpdateContactInfoSection() {
+        this.updateContactInfo.click();
+    }
+
+    goToRequestLoanSection() {
+        this.createNewAccountLink.waitForDisplayed({ timeout: 5000 });
+        this.requestLoan.click();
+    }
+
+    goToLogOut() {
+        this.logout.click();
+    }
+
+
 }
 module.exports = new HomePage();
